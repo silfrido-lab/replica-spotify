@@ -1,0 +1,289 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-size: 16px;
+        }
+        
+        .menu {
+            padding: 25px 0;
+        }
+        
+        .menu .logo {
+            font-size: 30px;
+            text-decoration: none;
+        }
+        
+        .menu .menu-nav {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .menu .menu-nav a {
+            margin: 0 15px;
+        }
+        
+        .menu a {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        
+        .menu .menu-nav a:hover {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .bienvenidos {
+            background: url(../img/premium_dancer.png), rgb(80, 155, 245);
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+            background-size: 450px;
+            height: 560px;
+        }
+        
+        .textos-encabezado h1 {
+            color: #FFF;
+            font-size: 80px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .sub p {
+            color: #FFF;
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-bottom: 35px;
+            font-weight: bold;
+        }
+        
+        .boton {
+            display: block;
+            border: none;
+            background: rgb(29, 185, 84);
+            padding: 17px 48px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: bold;
+            color: #FFF;
+            letter-spacing: 2px;
+            margin-bottom: 70px;
+        }
+        
+        .boton:hover {
+            transform: scale(1.04);
+            background-color: rgb(30, 215, 96);
+            color: rgb(255, 255, 255);
+        }
+        
+        .textos a {
+            display: block;
+            font-size: 12px;
+            color: #FFF;
+        }
+        /*SECCION POR QUE ELEGIRNOS*/
+        
+        .premium {
+            padding: 72px 0;
+        }
+        
+        .cuerpo-text {
+            font-size: 48px !important;
+            margin-bottom: 72px !important;
+        }
+        
+        .cont-img {
+            text-align: center;
+        }
+        
+        .cont-img img {
+            width: 142px;
+            text-align: center;
+        }
+        
+        .cont-img .titulo {
+            text-align: center;
+            font-size: 21px;
+            font-weight: bold;
+        }
+        
+        .tex-img {
+            padding-top: 32px;
+        }
+        /*SECCION PAQUETES*/
+        
+        .paquetes .text-paq {
+            font-size: 40px;
+        }
+        
+        .sub-paq {
+            margin-bottom: 34px;
+        }
+        /*SECCION PAQUETES TARJETAS*/
+        
+        .gratis {
+            background: rgb(63, 158, 215);
+            width: 27.5%;
+            font-size: 14px;
+            color: #FFF;
+            border-radius: 3px;
+            padding: 3px 6px;
+            margin-bottom: 10px;
+        }
+        
+        .caja {
+            /* margin-left: 20px;
+    margin-right: 20px; */
+            box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+            border-radius: 10px;
+            padding: 16px 16px 10px;
+            margin-bottom: 16px;
+        }
+        
+        .alineacion {
+            display: flex;
+        }
+        
+        .caja {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .abajo {
+            margin-top: auto;
+        }
+        
+        .encab {
+            margin-bottom: 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .desc {
+            padding-bottom: 16px;
+            border-bottom: 1px solid rgba(122, 122, 122, 0.3);
+        }
+        
+        .boton-paq {
+            border: none;
+            background: rgb(29, 185, 84);
+            padding: 17px 48px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: bold;
+            color: #FFF;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        
+        .terminos {
+            font-size: 12px;
+            color: rgb(175, 172, 172);
+            margin-top: 20px;
+        }
+        
+        .terminos p {
+            margin: 0;
+        }
+        
+        .listas li p {
+            margin: 0;
+            font-size: 16px;
+        }
+        
+        .listas ul {
+            padding: 0 16px 16px;
+        }
+        
+        .paquetes {
+            padding-bottom: 80px;
+        }
+        /*SECCION PAQUETES TARJETAS*/
+        
+        footer {
+            background-color: #000;
+            padding: 30px 0 20px;
+        }
+        
+        .text-footer {
+            color: #FFF;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        .nav-footer {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-footer nav a {
+            color: #FFF;
+            font-size: 12px;
+            margin-right: 10px;
+        }
+        /*MEDIA*/
+        
+        @media screen and (min-width:768px) and (max-width:998px) {
+            .caja {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (min-width:320px) and (max-width:768px) {
+            .textos-encabezado h1 {
+                color: #FFF;
+                font-size: 38px;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+            .sub p {
+                color: #FFF;
+                font-size: 24px;
+                margin-bottom: 0;
+                margin-bottom: 35px;
+                font-weight: bold;
+            }
+            .bienvenidos {
+                background: rgb(80, 155, 245);
+                background-repeat: no-repeat;
+                background-position-x: right;
+                background-position-y: bottom;
+                background-size: 450px;
+                height: 560px;
+            }
+        }
+        
+        @media screen and (min-width:320px) and (max-width:768px) {
+            .boton {
+                width: 100%;
+            }
+        }
+        
+        @media screen and (min-width:320px) and (max-width:1024px) {
+            .cont-img {
+                display: flex;
+                align-items: center;
+            }
+            .cont-img img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+        @media screen and (min-width:1024px) {
+            .cont-img img {
+                width: 142px;
+                height: 142px;
+            }
+        }
